@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../style.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+		/>
+		<title>Hypertext</title>
+		<style>
+			body {
+				background-color: #ff595e;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="center">
+				<p style="font-size: 40px; margin-bottom: 20px">
+					Ein konzept zum organisieren von Wissen,
+				</p>
+				<p style="font-size: 40px; margin-bottom: 20px">
+					dass eine leichte Navigation durch Inhalte bietet
+				</p>
+			</div>
+		</div>
+		<button id="next-btn">
+			<span class="material-symbols-outlined"> arrow_forward </span>
+		</button>
+		<button id="prev-btn">
+			<span class="material-symbols-outlined"> arrow_back </span>
+		</button>
+	</body>
+	<script>
+		var next = "../2/index.html";
+		var prev = "../1/index.html";
+
+		document.getElementById("next-btn").addEventListener("click", () => {
+			window.location.href = next;
+		});
+		document.getElementById("prev-btn").addEventListener("click", () => {
+			window.location.href = prev;
+		});
+		document.addEventListener("keydown", (event) => {
+			if (event.key == "ArrowRight") {
+				window.location.href = next;
+			} else if (event.key == "ArrowLeft") {
+				window.location.href = prev;
+			}
+		});
+	</script>
+</html>
