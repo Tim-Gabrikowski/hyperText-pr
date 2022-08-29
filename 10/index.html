@@ -9,18 +9,18 @@
 		<title>Hypertext</title>
 		<style>
 			body {
-				background-color: #ff595e;
+				background-color: #04395e;
 			}
 		</style>
 	</head>
 	<body>
 		<div class="container">
 			<div class="center">
-				<p style="font-size: 40px; margin-bottom: 20px">
-					Hypertext ist Text, der neben den
-					<code>Darstellungsanweisungen</code> auch Verweise
-					(<code>Hyperlinks</code>) auf andere Seiten
-				</p>
+				<img
+					src="../images/page7-source.png"
+					alt="Page 9 as HTML"
+					style="height: 90vh"
+				/>
 			</div>
 		</div>
 		<button id="next-btn">
@@ -31,8 +31,8 @@
 		</button>
 	</body>
 	<script>
-		var next = "../2/index.html";
-		var prev = "../";
+		var next = "../11/index.html";
+		var prev = "../9/index.html";
 
 		document.getElementById("next-btn").addEventListener("click", () => {
 			window.location.href = next;

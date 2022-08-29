@@ -65,3 +65,12 @@ code {
 	padding-right: 10px;
 	font-size: 35px;
 }
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+	color: inherit;
+}

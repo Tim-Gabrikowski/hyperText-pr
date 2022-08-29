@@ -16,17 +16,35 @@
 	<body>
 		<div class="container">
 			<div class="center">
-				<p style="font-size: 40px; margin-bottom: 20px">
-					Hypertext wird in Auszeichnungssprache<br />
-					(<code>markup language</code>) geschrieben.
+				<h2 style="font-size: 40px; margin-bottom: 10px">Credits</h2>
+				<p style="font-size: 30px; margin-bottom: 40px">
+					Visuals und code: Tim Gabrikowski <br />
+					Text: Jonathan Jandl <br />
+					Recherche: Julien Atsou
 				</p>
-				<p style="font-size: 40px">
-					Das ist eine maschinenlesbare Sprache, die Anweisungen zur Gliederung
-					und Formatierung enthält
+				<h2 style="font-size: 40px; margin-bottom: 10px">Quellenverzeichnis</h2>
+				<p style="font-size: 30px; text-align: left">
+					<a href="https://de.m.wikipedia.org/wiki/Hypertext">
+						Hypertext (wikipedia)
+					</a>
+					<br />
+					<a href="https://de.m.wikipedia.org/wiki/Auszeichnungssprache">
+						Auszeichnungssprache (wikipedia)
+					</a>
+					<br />
+					<a href="https://www.easy-network.de/geschichte-des-hypertext.html">
+						Geschichte des Hypertexts (easy-network.de)
+					</a>
+					<br />
+					<a
+						href="http://worrydream.com/refs/Bush%20-%20As%20We%20May%20Think%20(Life%20Magazine%209-10-1945).pdf"
+					>
+						As We May Think (worrydream.com)
+					</a>
 				</p>
 			</div>
 		</div>
-		<button id="next-btn">
+		<button id="next-btn" class="hidden">
 			<span class="material-symbols-outlined"> arrow_forward </span>
 		</button>
 		<button id="prev-btn">
@@ -34,8 +52,8 @@
 		</button>
 	</body>
 	<script>
-		var next = "../8/index.html";
-		var prev = "../6/index.html";
+		var next = "../12/index.html";
+		var prev = "../10/index.html";
 
 		document.getElementById("next-btn").addEventListener("click", () => {
 			window.location.href = next;

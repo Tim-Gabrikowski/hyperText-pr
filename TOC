@@ -13,3 +13,11 @@ index.html (main)
 6/index.html (Intro: how)
 |
 7/index.html (markup language)
+|
+8/index.html (HTML)
+| 
+9/index.html (FunFact)
+|
+10/index.html (Source code)
+| 
+11/index.html (credits)
