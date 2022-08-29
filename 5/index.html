@@ -9,7 +9,10 @@
 		<title>Hypertext</title>
 		<style>
 			body {
-				background-color: #ff595e;
+				background-color: #31572c;
+			}
+			.center {
+				padding-left: 100px;
 			}
 		</style>
 	</head>
@@ -17,12 +20,22 @@
 		<div class="container">
 			<div class="center">
 				<p style="font-size: 40px; margin-bottom: 20px">
-					Ein Konzept zum organisieren von Wissen,
-				</p>
-				<p style="font-size: 40px; margin-bottom: 20px">
-					dass eine leichte Navigation durch Inhalte bietet
+					Die erste Idee aber beschrieb Vannevar Bush schon 1945 in <br />
+					&bdquo;As We May Think&ldquo;<br />
+					(Atlantic Monthly, July 1945)
 				</p>
 			</div>
+			<img
+				src="../images/AsWeMayThink-screenshot.png"
+				alt="As We May Think (Atlantic Monthly, July 1945)"
+				style="
+					width: 250px;
+					margin-top: 20px;
+					transform: rotate(15deg);
+					margin-left: 100px;
+					margin-top: 300px;
+				"
+			/>
 		</div>
 		<button id="next-btn">
 			<span class="material-symbols-outlined"> arrow_forward </span>
@@ -32,8 +45,8 @@
 		</button>
 	</body>
 	<script>
-		var next = "../3/index.html";
-		var prev = "../1/index.html";
+		var next = "../6/index.html";
+		var prev = "../4/index.html";
 
 		document.getElementById("next-btn").addEventListener("click", () => {
 			window.location.href = next;

@@ -9,19 +9,17 @@
 		<title>Hypertext</title>
 		<style>
 			body {
-				background-color: #ff595e;
+				background-color: #04395e;
 			}
 		</style>
 	</head>
 	<body>
 		<div class="container">
 			<div class="center">
-				<p style="font-size: 40px; margin-bottom: 20px">
-					Ein Konzept zum organisieren von Wissen,
-				</p>
-				<p style="font-size: 40px; margin-bottom: 20px">
-					dass eine leichte Navigation durch Inhalte bietet
-				</p>
+				<h2 style="font-size: 40px; margin-bottom: 20px">
+					Hypertext wird in Auszeichnungssprache<br />
+					(<code>markup language</code>) geschrieben
+				</h2>
 			</div>
 		</div>
 		<button id="next-btn">
@@ -32,8 +30,8 @@
 		</button>
 	</body>
 	<script>
-		var next = "../3/index.html";
-		var prev = "../1/index.html";
+		var next = "../8/index.html";
+		var prev = "../6/index.html";
 
 		document.getElementById("next-btn").addEventListener("click", () => {
 			window.location.href = next;

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 body {
 	color: white;
 	font-family: "Inconsolata", monospace;
@@ -50,4 +51,17 @@ p {
 }
 #prev-btn span {
 	font-size: 60px;
+}
+
+.hidden {
+	display: none;
+}
+code {
+	font-family: "Roboto", sans-serif;
+	color: rgb(255, 255, 255);
+	background-color: rgba(87, 87, 87, 0.711);
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 35px;
 }
